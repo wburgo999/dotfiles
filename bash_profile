@@ -1,3 +1,4 @@
+~/bash_scripts/numbers.js
 fortune | cowsay | lolcat
 ##### PATH #####
 export PATH=~/bin:$PATH
