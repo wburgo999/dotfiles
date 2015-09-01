@@ -1,3 +1,4 @@
+fortune | cowsay | lolcat
 ##### PATH #####
 export PATH=~/bin:$PATH
 
