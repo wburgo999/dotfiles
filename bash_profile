@@ -10,6 +10,9 @@ source ~/.bash_profile_scripts
 ##### PROMPT #####
 PS1="\n\[$txtgrn\][ \[$txtpur\]\w \[$txtgrn\]-- \[$txtblu\](\$(vcprompt))\[$txtgrn\]] \n     !\! --> \[$txtwht\]"
 
+##### TEMP ALIASES #####
+alias job='vim ~/todo/job.txt'
+
 
 ##### ALIASES #####
 alias cp='cp -v'
