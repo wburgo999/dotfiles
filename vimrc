@@ -4,6 +4,8 @@ syntax enable
 set ttimeoutlen=0
 
         "WHITESPACE"
+        set shortmess=a
+        set cmdheight=2
         set tabstop=2
         set softtabstop=2
         set shiftwidth=2
@@ -16,6 +18,7 @@ set ttimeoutlen=0
         set ruler
         set showcmd
         set cursorline
+        set backspace=indent,eol,start
         filetype indent on
         set wildmenu
         set wildmode=longest,list,full
@@ -45,6 +48,5 @@ set ttimeoutlen=0
         set mouse=n
         set nocompatible
         filetype plugin on
-        runtim macros/matchit.vim
         set pastetoggle=<f9>
 
